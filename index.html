@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Card Customizer</title>
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="index.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Card Customizer</h1>
+        </header>
+        <section class="cardContainer">
+            <div class="card">
+                <div class="cardHeader">
+                    <div class="cardImage"><!-- An image will be placed here using JavaScript --></div>
+                    <div class="cardTitle"><!-- A title will be placed here using JavaScript --></div>
+                </div>
+                <div class="cardDescription"><p><!-- A card description will be placed here using JavaScript --></p></div>
+                <div class="cardFooter">
+                    <div class="attackPower"><!-- An attack power will be placed here using JavaScript --></div>
+                    <div class="defensePower"><!-- A defense power will be placed here using JavaScript --></div>
+                </div>
+            </div>
+        </section>
+ <section id="inputWrapper">
+            <section class="InputContainer">
+                <input id="borderInput" title="borderColorInput" type="text" value=" "><span><button>Change Border Color</button></span>
+            </section>
+    
+            <section class="InputContainer">
+                <input id="backgroundInput" title="backgroundColorInput" type="text" value=" "><span><button>Make Background Color</button></span>
+            </section>
+    
+            <section class="InputContainer">
+                <input id="cardTitleInput" type="text" title="titleInput" value=" "><span><button>Show Title</button></span> <span><input id="title" type="text" value=" "><span><button>Choose Title Color</button></span>
+            </section>
+
+            <section class="InputContainer">
+                <textarea id="cardDescription" cols="80" rows="10"></textarea><br>
+                <button>Add Description</button>
+            </section>
+ </section>
+        
+        
+        <script src="index.js"></script>
+    </body>
+</html>

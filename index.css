@@ -1,0 +1,44 @@
+body {
+  width: auto;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #f3f3f3; }
+
+header {
+  text-align: center; }
+
+.cardContainer {
+  width: auto;
+  margin-bottom: 15px; }
+  .cardContainer .card {
+    border: 10px solid lightGray;
+    border-radius: 10px;
+    width: 400px;
+    height: 550px;
+    margin: auto;
+    padding: 5px; }
+  .cardContainer .cardTitle {
+    text-align: right;
+    margin: 5px 5px 0 0;
+    font-family: "Lobster", cursive;
+    font-size: 30px;
+    color: #a0a0a0; }
+  .cardContainer .cardDescription p {
+    width: auto;
+    overflow: hidden; }
+
+#inputWrapper {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center; }
+
+.InputContainer {
+  margin-bottom: 10px; }
+  .InputContainer input {
+    height: 30px;
+    font-size: 1.0em; }
+  .InputContainer button {
+    height: 37px;
+    border: none; }
+
+/*# sourceMappingURL=index.css.map */
